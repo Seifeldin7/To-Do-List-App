@@ -1,0 +1,13 @@
+<li class="list-group-item " aria-disabled="true">
+  <div class="row">
+    <div class="col-md-1 col-2">
+      <div class="form-check">
+        <input class="form-check-input position-static" (change)= "onChange()" type="checkbox" id="blankCheckbox" value="option1" [checked]="todo.checked">
+      </div>
+    </div>
+    <div class="col-md-11 col-10">
+      <h5>{{todo.title}}</h5>
+      <p>{{todo.content}}</p>
+    </div>
+  </div>  
+</li>

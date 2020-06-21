@@ -1,0 +1,22 @@
+.card{
+    -webkit-box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+}
+.card-header{
+    background-color: white;
+    border-bottom: none;
+}
+.container2{
+    background-image: linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url(../../../assets/relaxing_wallpaper_dolphins_02_full.jpg);
+    background-size:cover ;
+    background-position: center;    
+    width: 100%;
+    left: 0;
+    min-height: 670px;
+    
+}
+
+.signup{
+    font-size: xx-large;
+}

@@ -1,0 +1,12 @@
+.gr{
+    color: 	blue;
+    font-size: x-large;
+    font-weight: bolder;
+    font-style: italic;
+}
+.navbar-link{
+    color: 	rgba(0,0,0,0.6);
+}
+.navbar{
+    background-color: white;
+}

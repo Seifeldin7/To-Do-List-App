@@ -1,0 +1,15 @@
+ul{
+    padding: 5px;
+    border-radius: 5px;
+    -webkit-box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    -moz-box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    box-shadow: -1px 0px 29px 3px rgba(0, 0, 0, 0.29);
+    
+}
+.top{
+    background: url(../../assets/relaxing_wallpaper_dolphins_02_full.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    min-height: 670px;
+    background-attachment: fixed;
+}

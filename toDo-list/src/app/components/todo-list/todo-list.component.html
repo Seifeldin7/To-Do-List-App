@@ -1,0 +1,19 @@
+<div class="top">
+  <div class="m-5">
+    <div>
+      <ul class="list-group" *ngFor="let todo of todos">
+        <app-todo-item [todo]="todo" (checkEvent)="onCheck($event)"></app-todo-item>
+      </ul>
+      <h1 *ngIf="isLoading" style="color: white; padding: 50px;">Loading...</h1>
+      <button *ngIf="!addBtnPressed" class="btn btn-link my-4" style="color:white;" type="button"
+        (click)="onParentAdd()">
+        <p class="small_view_5s"><i class="fa fa-plus mr-2" aria-hidden="true"></i>Add Todo</p>
+      </button>
+      <div *ngIf="addBtnPressed">
+        <app-todo-item-create (todoAddedEvent)="onChildAdd($event)" (cancelEvent)="onCancel($event)">
+        </app-todo-item-create>
+      </div>
+      <button class="btn  " style="position: absolute;bottom: 0;right: 0; color: blue;" (click)= "onClickLogOut()">Log Out</button>
+    </div>
+  </div>
+</div>
