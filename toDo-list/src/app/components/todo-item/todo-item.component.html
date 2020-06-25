@@ -2,7 +2,7 @@
   <div class="row">
     <div class="col-md-1 col-2">
       <div class="form-check">
-        <input class="form-check-input position-static" (change)= "onChange()" type="checkbox" id="blankCheckbox" value="option1" [checked]="todo.checked">
+        <input class="form-check-input position-static"  [(ngModel)]="isChecked" (change)= "onChange()" type="checkbox" id="blankCheckbox" value="option1" >
       </div>
     </div>
     <div class="col-md-11 col-10">
